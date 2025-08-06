@@ -96,7 +96,7 @@
       mask-image: var(--chevron-up-icon);
       mask-size: 100%;
       cursor: pointer;
-      transition: transform 0.3s ease;
+      // transition: transform 0.3s ease;
 
       &--true {
         transform: rotate(180deg);
