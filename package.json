@@ -24,7 +24,8 @@
   "scripts": {
     "lint": "eslint src && stylelint 'src/**/*.scss'",
     "test": "vitest --coverage",
-    "build": "vitest run && vite build",
+    "build:test": "vitest run && vite build",
+    "build": "vite build",
     "prepare": "npm run build",
     "dev": "vite"
   },
