@@ -1,5 +1,5 @@
 {
-  "name": "mapboxgl-legend",
+  "name": "@zevross/mapboxgl-legend",
   "version": "1.16.0",
   "description": "Mapbox-GL plugin that automatically draws a legend from layer styles",
   "type": "module",
@@ -27,7 +27,9 @@
     "build:test": "vitest run && vite build",
     "build": "vite build",
     "prepare": "npm run build",
-    "dev": "vite"
+    "dev": "vite",
+    "gh-packages:login": "npm login --scope=zevross --auth-type=legacy --registry=https://npm.pkg.github.com",
+    "gh-packages:publish": "npm publish"
   },
   "keywords": [
     "mapbox",
@@ -37,14 +39,17 @@
     "style"
   ],
   "author": "Marc Vilella <mvilella@obsa.ad> (https://github.com/markusand)",
+  "contributors": [
+    "Erin Murphy <erin@zevross.com> (https://github.com/em843)"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markusand/mapboxgl-legend.git"
+    "url": "git+https://github.com/zevross/lib-mapboxgl-legend.git"
   },
   "bugs": {
-    "url": "https://github.com/markusand/mapboxgl-legend/issues"
+    "url": "https://github.com/zevross/lib-mapboxgl-legend/issues"
   },
-  "homepage": "https://github.com/markusand/mapboxgl-legend",
+  "homepage": "https://github.com/zevross/lib-mapboxgl-legend",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.10.2",
